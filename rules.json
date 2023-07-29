@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://www.swmaestro.org/static/sw/js/jquery.nicescroll.js",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]

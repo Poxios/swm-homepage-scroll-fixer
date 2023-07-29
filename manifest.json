@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "SW Maestro Scroll Fixer",
+  "version": "1.0.0",
+  "description": "OSX의 트랙패드 환경에서 SW Maestro 홈페이지 스크롤이 정상적으로 작동하지 않는 문제를 해결합니다.",
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://www.swmaestro.org/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "120": "icons/icon120.png"
+  }
+}
